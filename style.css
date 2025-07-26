@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.formulario {
+    border: 2px solid #444;
+    padding: 15px;
+    width: 350px;
+    background-color: #fff;
+}
+
+.fila {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.campo {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+.completo {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #444;
+    background-color: #eee;
+    cursor: pointer;
+}

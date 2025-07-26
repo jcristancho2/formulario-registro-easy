@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="formulario">
+        <div class="fila">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+        </div>
+
+        <div class="fila">
+            <div class="campo">
+                <label>Fecha de Nacimiento</label>
+                <input type="date" required>
+            </div>
+            <div class="campo">
+                <label>Lugar de Nacimiento</label>
+                <select required>
+                    <option value="">seleccione una ciudad</option>
+                    <option value="bogota">Bogotá</option>
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                    <option value="bucaramanga">Bucaramanga</option>
+                    <option value="cartagena">Cartagena</option>
+                    <option value="cucuta">Cúcuta</option>
+                    <option value="barranquilla">Barranquilla</option>
+                    <option value="pereira">Pereira</option>
+                    <option value="manizales">Manizales</option>
+                    <option value="ibague">Ibagué</option>
+                    <option value="santa_marta">Santa Marta</option>
+                    <option value="neiva">Neiva</option>
+                    <option value="popayan">Popayán</option>
+                    <option value="tunja">Tunja</option>
+                    <option value="villavicencio">Villavicencio</option>
+                    <option value="armenia">Armenia</option>
+                    <option value="monteria">Montería</option>
+                    <option value="valledupar">Valledupar</option>
+                    <option value="soledad">Soledad</option>
+                    <option value="sincelejo">Sincelejo</option>
+                    <option value="pasto">Pasto</option>
+                    <option value="tunja">Tunja</option>
+                    <option value="florencia">Florencia</option>
+                    <option value="quibdo">Quibdó</option>
+                    <option value="leticia">Leticia</option>
+                    <option value="san_andres">San Andrés</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+        </div>
+
+        <input type="text" placeholder="Dirección de Residencia" class="completo">
+
+        <div class="fila">
+            <input type="tel" placeholder="Teléfono" required>
+            <input type="email" placeholder="e-mail" required>
+        </div>
+
+        <div class="campo">
+            <label>Género</label>
+            <div class="opciones">
+                <label><input type="radio" name="genero"> Masculino</label>
+                <label><input type="radio" name="genero"> Femenino</label>
+                <label><input type="radio" name="genero"> Otro</label>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label>Hobbies</label>
+            <div class="opciones hobbies">
+                <label><input type="checkbox"> Música</label>
+                <label><input type="checkbox"> Natación</label>
+                <label><input type="checkbox"> Pintura</label>
+                <label><input type="checkbox"> Ciclismo</label>
+                <label><input type="checkbox"> Otro tipo de arte</label>
+                <label><input type="checkbox"> Patinaje</label>
+            </div>
+        </div>
+
+        <div class="botones">
+            <button type="reset">Limpiar Formulario</button>
+            <button type="submit">Enviar Formulario</button>
+        </div>
+    </form>
+</body>
+
+</html>
